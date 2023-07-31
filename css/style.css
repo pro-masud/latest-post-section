@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* service setion styling start */
+
+.section-padding{
+    padding: 80px 0;
+    background-color: #F9F9F8;
+}
+
+
+.section-title{
+    text-align: center;
+}
+
+
+.section-title h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.latest-posts {
+    margin-top: 80px;
+}
+
+.single-post{
+    background-color: #fff;
+    margin: 10px 20px;
+    transition: .5s;
+    
+}
+
+.single-post:hover{
+    box-shadow: 0 0 10px #08c108, 0 0 6px #23f323;
+}
+
+.service-bg{
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+}
+
+.service-bg-1{
+    background-image: url('../images/2.png');
+}
+
+.service-bg-2{
+    background-image: url('../images/mf.png');
+}
+
+.service-bg-3{
+    background-image: url('../images/mf2.png');
+}
+
+.post-content{
+    padding: 20px;
+}
+
+.post-content h2{
+    font-size: 27px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 600;
+}
+
+.post-content p{
+    font-size: 18px;
+    color: #a8a6a6;
+    text-align: left;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+.post-content a.latest-btn{
+    text-decoration: none;
+    color: #08c108;
+    background: transparent;
+    border: 1px solid #08c108;
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 10px 5px 0 0;
+    border-radius: 20px;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.single-post:hover a.latest-btn{
+    background-color: #08c108;
+    border: 1px solid transparent;
+    color: #fff;
+    position: relative;
+   
+}
+
+.post-content a i{
+    vertical-align: middle;
+    margin-left: 3px;
+    transition: .3s;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -3px;
+}
+
+.post-content a:hover i{
+    margin-left: 6px;
+}
